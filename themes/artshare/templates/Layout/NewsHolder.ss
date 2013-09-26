@@ -11,13 +11,13 @@
 
 <ul>
 
-<% loop Children %>
+<% control Children %>
 <li>
 <h4>$Title</h4>
 <h5>$NewsDate</h5>
 <h6>$NewsLocation</h6>
 <p>$Content</p></li>
-<% end_loop %>
+<% end_control %>
 
 </ul>
 

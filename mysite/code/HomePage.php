@@ -15,7 +15,7 @@ class HomePage extends Page {
    function getCMSFields() {
    $fields = parent::getCMSFields();
    
-   $fields->removeFieldFromTab("Root.Main","Content");
+   $fields->removeFieldFromTab("Root.Content.Main","Content");
    
 
 
@@ -34,8 +34,7 @@ class HomePage_Controller extends Page_Controller {
 	
 	
 		function rss() {
-			//$set = DataObject::get("NewsPage");
-			$set = NewsPage::get(); 
+			$set = DataObject::get("NewsPage");
 			
 			$rss = new RSSFeed($set, $this->Link(), "News Feed", "Shows a list of the most recently updated news and events.", "Title", "Content", "Author");
 			$rss->outputToBrowser();

@@ -4,7 +4,7 @@
 
 <% if ContentImage %>
 
-<div class="interior-image" style="background: url(<% loop ContentImage.SetWidth(400) %>$Filename<% end_loop %>) no-repeat 0px 0px;">
+<div class="interior-image" style="background: url(<% control ContentImage.SetWidth(400) %>$Filename<% end_control %>) no-repeat 0px 0px;">
 <div class="interior-mask">
 
 <p>$Title</p>
@@ -33,12 +33,12 @@
 <% if InSection(about) %>
 
 <ul class="projects-holder">
-<% loop ChildrenOf(our-leaders) %>
+<% control ChildrenOf(our-leaders) %>
 <li class="position$Pos">
 
 <% if ContentImage %>
 
-<div class="thumb-image" style="background: url(<% loop ContentImage.SetWidth(130) %>$Filename<% end_loop %>) no-repeat 12px 15px;">
+<div class="thumb-image" style="background: url(<% control ContentImage.SetWidth(130) %>$Filename<% end_control %>) no-repeat 12px 15px;">
 <div class="thumb-mask$Pos">
 </div>
 </div>
@@ -55,7 +55,7 @@
 <p class="date"><a href="mailto:$PersonnelEmail">$PersonnelEmail</a></p>
 
 <span class="more"><a href="$Link">Read Bio</a></span></li>
-<% end_loop %>
+<% end_control %>
 </ul>
 <div class="clear"></div>
 <% end_if %> 

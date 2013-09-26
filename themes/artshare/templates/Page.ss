@@ -147,10 +147,10 @@ $Layout
 <a href="$BaseHref/"><img class="artshare" src="$ThemeDir/images/footer-logo.png"  alt="Arts Share" /></a>
 
   <ul class="menu">
-       <% loop Menu(1) %>
+       <% control Menu(1) %>
                 <li class="$URLSegment"><a href="$Link">$MenuTitle</a>
                  </li>
-            <% end_loop %>
+            <% end_control %>
       </ul>
 
 <a href="http://www.clas.uiowa.edu/"><img class="clas" src="$ThemeDir/images/clas.png"  alt="College of Liberal Arts and Sciences" /></a>
