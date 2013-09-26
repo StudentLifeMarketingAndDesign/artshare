@@ -1,7 +1,7 @@
-<% control Home %>
+<% loop Home %>
 
 
-<img class="front-img" src="<% control FeatureImage %><% control SetWidth(472) %> $URL <% end_control %><% end_control %>" alt="$Title"/>
+<img class="front-img" src="<% loop FeatureImage %><% loop SetWidth(472) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/>
 
 
 
@@ -12,7 +12,7 @@ $Content
 
 
 
-<% end_control %>
+<% end_loop %>
 
 
 
@@ -30,13 +30,13 @@ $Content
 <h3><a href="/news-and-events/">Events</a> </h3>
 <ul>
 
-<% control News %>
+<% loop News %>
 <li>
 <h4>$Title</h4>
 <h5>$NewsDate</h5>
 <h6>$NewsLocation</h6>
 $Content</li>
-<% end_control %>
+<% end_loop %>
 
 </ul>
 
@@ -44,11 +44,11 @@ $Content</li>
 
 <% end_if %>
 
-<% control ChildrenOf(Programs) %>
+<% loop ChildrenOf(Programs) %>
 
 
 <div class="program {$EvenOdd}{$Pos}">
-<a href="$Link"><img src="<% control ContentImage %><% control SetWidth(151) %> $URL <% end_control %><% end_control %>" alt="$Title"/></a>
+<a href="$Link"><img src="<% loop ContentImage %><% loop SetWidth(151) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/></a>
 
 
 <h3><a href="$Link">$Title</a></h3>
@@ -56,7 +56,7 @@ $Content</li>
 <p class="more"><a href="$Link">Read More</a></p>
 </div>	<!-- end program -->
 	
-	<% end_control %>
+	<% end_loop %>
 	
 
 

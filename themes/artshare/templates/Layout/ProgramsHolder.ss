@@ -10,11 +10,11 @@ $Content
 
 
 
-<% control Children %>
+<% loop Children %>
 
 <h2 class="programs">$Title</h2>
 
-<% control Children %>
+<% loop Children %>
 <div class="individual-programs middle$Pos">
 
 <h3><a href="$link">$Title</a></h3>
@@ -28,9 +28,9 @@ $Content
 
 
 	
-<% end_control %>
+<% end_loop %>
 	<br />
-<% end_control %>
+<% end_loop %>
 	
 
 
