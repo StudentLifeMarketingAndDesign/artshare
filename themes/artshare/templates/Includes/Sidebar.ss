@@ -7,7 +7,7 @@
 <h3><a href="/news-and-events/"><span>News</span><strong> &amp;</strong> Events</a></h3>
 <ul>
 
-<% control News %>
+<% loop News %>
 <li>
 <h4><a href="$Link">$Title</a></h4>
 <% if NewsDate %>
@@ -19,7 +19,7 @@ $getSummaryHTML(Content, 10)
 <% else %>
 <span class="more"><a href="$Link">Read More</a></span>
 <% end_if %></li>
-<% end_control %>
+<% end_loop %>
 </ul>
 
 
@@ -39,11 +39,11 @@ $getSummaryHTML(Content, 10)
 <p><em>Events from the Office of Sustainability</em></p>
 <ul>
 
-<% control RSSFeedImport(3) %>
+<% loop RSSFeedImport(3) %>
 <li>
 <h4><a href="$Link">$Title</a></h4>
 <span class="external-link"><a href="$Link">Read More</a></span></li>
-<% end_control %>
+<% end_loop %>
 </ul>
 
 </div>
