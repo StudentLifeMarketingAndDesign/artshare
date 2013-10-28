@@ -8,7 +8,7 @@ class Page extends SiteTree {
 	public static $has_one = array(
 	);
 	
-	static $allowed_children = array('ProgramsPage');
+	static $allowed_children = array('ProgramsPage','UserDefinedForm','Page');
 	  /*
    * limits words to a number, but tries to validate the code
    */
