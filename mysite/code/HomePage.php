@@ -5,11 +5,11 @@
  
 class HomePage extends Page {
 	
-	public static $allowed_children = array("HomePageTab");
-	static $db = array(
+	private static $allowed_children = array("HomePageTab");
+	private static $db = array(
 	 
 	);
-	static $has_one = array(
+	private static $has_one = array(
 	 
 	);
 	   

@@ -3,13 +3,13 @@
 class NewsPage extends Page {
 	
 	
-	public static $defaults = array(
+	private static $defaults = array(
 							 
 
 	
 	);
 	
-	public static $db = array(
+	private static $db = array(
 	
 	"ExternalLink" => "Text",
 	"NewsDate" => "Text",
@@ -20,7 +20,7 @@ class NewsPage extends Page {
 	
 	);
 	
-	public static $has_one = array(
+	private static $has_one = array(
 	
 	"NewsImage" => "Image",
 	

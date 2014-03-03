@@ -2,17 +2,17 @@
 
 class NewsHolder extends Page {
 	
-	public static $db = array(
+	private static $db = array(
 	
 	);
 	
-	public static $has_one = array(
+	private static $has_one = array(
 								   
 	'ContentImage' => 'Image'
 								   
 	);
 
-static $allowed_children = array('NewsPage');
+    private static $allowed_children = array('NewsPage');
 	
 	
 function getCMSFields() {

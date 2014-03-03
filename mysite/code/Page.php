@@ -2,13 +2,13 @@
 
 class Page extends SiteTree {
 	
-	public static $db = array(
+	private static $db = array(
 	);
 	
-	public static $has_one = array(
+	private static $has_one = array(
 	);
 	
-	static $allowed_children = array('ProgramsPage');
+	private static $allowed_children = array('ProgramsPage');
 	  /*
    * limits words to a number, but tries to validate the code
    */
