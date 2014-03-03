@@ -8,7 +8,6 @@ class Page extends SiteTree {
 	private static $has_one = array(
 	);
 	
-	private static $allowed_children = array('ProgramsPage');
 	  /*
    * limits words to a number, but tries to validate the code
    */
