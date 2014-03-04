@@ -136,25 +136,16 @@ $Layout
 </div><!--end container-->
 
 <div id="footer">
-<p class="icons">
-<a href="/"><img src="$ThemeDir/images/email.png" width="30" height="28" alt="Sign up for our Newsletter" /></a>
-<a href="/">Sign-up for our Newsletter</a>
-<a title="Share this page on Facebook" href="http://www.facebook.com/sharer.php?u={$BaseHref}{$URLSegment}&t=$Title"><img src="$ThemeDir/images/share.png" alt="Share this page on Facebook" /></a>
-<a title="Share this page on Facebook" href="http://www.facebook.com/sharer.php?u={$BaseHref}{$URLSegment}&t=$Title">Share</a>
-<a href="http://www.facebook.com/pages/Iowa-City-IA/Arts-Share/131071416933762"><img src="$ThemeDir/images/facebook.png" alt="Visit our Facebook page" /></a>
-<a href="http://www.facebook.com/pages/Iowa-City-IA/Arts-Share/131071416933762">Facebook</a></p>
+
 <a href="http://www.uiowa.edu"><img class="uiowa" src="$ThemeDir/images/footer-uiowa.png" width="61" height="60" alt="The University of Iowa" longdesc="http://www.uiowa.edu" /></a>
 <a href="$BaseHref/"><img class="artshare" src="$ThemeDir/images/footer-logo.png"  alt="Arts Share" /></a>
 
-  <ul class="menu">
-       <% loop Menu(1) %>
-                <li class="$URLSegment"><a href="$Link">$MenuTitle</a>
-                 </li>
-            <% end_loop %>
-      </ul>
-
 <a href="http://www.clas.uiowa.edu/"><img class="clas" src="$ThemeDir/images/clas.png"  alt="College of Liberal Arts and Sciences" /></a>
-
+<p class="icons">
+<!--<a href="/"><img src="$ThemeDir/images/email.png" width="30" height="28" alt="Sign up for our Newsletter" /></a>
+<a href="/">Sign-up for our Newsletter</a>-->
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FUniversity-of-Iowa-Arts-Share%2F131071416933762&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe>
+</p>
 <p class="copywright">
 The University of Iowa • 113 Halsey Hall • Iowa City, Iowa 52242-1795 • Phone: (319) 335-1618 • Fax: (319) 335-2637 • E-Mail: <a href="mailto:artshare@uiowa.edu">artshare@uiowa.edu</a><br />
 <a href="http://www.clas.uiowa.edu/">College of Liberal Arts &amp; Sciences</a>  •  <a href="http://performingarts.uiowa.edu/">Division of Performing Arts</a>  •  &copy; 2005 -  $Now.Year. <a href="http://www.uiowa.edu">The University of Iowa</a></p>

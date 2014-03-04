@@ -50,7 +50,7 @@ $Content
 
 
 
-<div id="projects">
+<!--<div id="projects">
 
 <h3><a href="http://sustainability.uiowa.edu/events"><span>Sustainability</span> News</a></h3>
 <p><em>Events from the Office of Sustainability</em></p>
@@ -63,7 +63,7 @@ $Content
 <% end_loop %>
 </ul>
 
-</div>
+</div>-->
 
 
 

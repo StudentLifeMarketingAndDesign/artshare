@@ -136,7 +136,7 @@ class Page_Controller extends ContentController {
 	
 	function RSSFeedImport($numItems) {
 		
-		$feedURL= "feed://sustainability.uiowa.edu/events/rss?alt=rss";
+	/*  $feedURL= "feed://sustainability.uiowa.edu/events/rss?alt=rss";
 	  $output = new DataObjectSet();
 	  
 	  include_once(Director::getAbsFile(SAPPHIRE_DIR . '/thirdparty/simplepie/simplepie.inc'));
@@ -147,15 +147,15 @@ class Page_Controller extends ContentController {
 	  if($items = $feed->get_items(0, $numItems)) {
 		 foreach($items as $item) {
 			
-			// Cast the Date
+			
 			$date = new Date('Date');
 			$date->setValue($item->get_date());
 	
-			// Cast the Title
+			
 			$title = new Text('Title');
 			$title->setValue($item->get_title());
 			
-			// Cast the description and strip
+			
 			$desc = new Text('Description');
 			$desc->setValue(strip_tags($item->get_description()));
 	
@@ -167,7 +167,7 @@ class Page_Controller extends ContentController {
 			)));
 		 }
 		 return $output;
-	  }
+	  }*/
 }
 	
 }
