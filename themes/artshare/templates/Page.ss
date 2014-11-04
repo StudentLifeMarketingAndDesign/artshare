@@ -86,12 +86,12 @@ div.edit-box a:hover { background: black; color: white }
 
 <a title="Divison of Performing Arts" href="http://performingarts.uiowa.edu"><img class="dpa" src="$ThemeDir/images/dpa.png" width="193" height="31" alt="Department of Performing Arts" longdesc="http://performingarts.uiowa.edu" /></a>
 
-<a title="The University of Iowa Department of Dance" href="http://dance.uiowa.edu"><img class="performing-arts" src="$ThemeDir/images/dance.png" alt="The University of Iowa Department of Dance" longdesc="http://dance.uiowa.edu" /></a>
+<a title="The University of Iowa Department of Dance" href="http://dance.uiowa.edu" target="_blank"><img class="performing-arts" src="$ThemeDir/images/dance.png" alt="The University of Iowa Department of Dance" longdesc="http://dance.uiowa.edu" /></a>
 
-<a title="The University of Iowa Department of Theatre Arts" href="http://www.uiowa.edu/~theatre/">
+<a title="The University of Iowa Department of Theatre Arts" href="http://theatre.uiowa.edu/" target="_blank">
 <img class="performing-arts" src="$ThemeDir/images/theatre.png" alt="The University of Iowa Department of Theatre Arts" longdesc="http://www.uiowa.edu/~theatre/"></a>
 
-<a title="The University of Iowa Music Department" href="http://www.uiowa.edu/~music/"><img class="performing-arts" src="$ThemeDir/images/music.png" alt="The University of Iowa Music Department" longdesc="http://www.uiowa.edu/~music/"/></a>
+<a title="The University of Iowa Music Department" href="http://music.uiowa.edu/" target="_blank"><img class="performing-arts" src="$ThemeDir/images/music.png" alt="The University of Iowa Music Department" longdesc="http://www.uiowa.edu/~music/"/></a>
 
 <h1 class="logo">
 <a title="Arts Share" href="$BaseHref/">Arts Share<span></span></a>
