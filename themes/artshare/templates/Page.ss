@@ -84,7 +84,7 @@ div.edit-box a:hover { background: black; color: white }
 <div id="uiowa-logo">
 <a title="The University of Iowa"  href="http://www.uiowa.edu"><img src="$ThemeDir/images/uiowa-logo.png" width="84" height="79" alt="University of Iowa" longdesc="http://www.uiowa.edu" /></a></div> 
 
-<a title="Divison of Performing Arts" href="http://performingarts.uiowa.edu"><img class="dpa" src="$ThemeDir/images/dpa.png" width="193" height="31" alt="Department of Performing Arts" longdesc="http://performingarts.uiowa.edu" /></a>
+<a title="Divison of Performing Arts" href="http://dpa.uiowa.edu"><img class="dpa" src="$ThemeDir/images/dpa.png" width="193" height="31" alt="Department of Performing Arts" longdesc="http://dpa.uiowa.edu" /></a>
 
 <a title="The University of Iowa Department of Dance" href="http://dance.uiowa.edu" target="_blank"><img class="performing-arts" src="$ThemeDir/images/dance.png" alt="The University of Iowa Department of Dance" longdesc="http://dance.uiowa.edu" /></a>
 
