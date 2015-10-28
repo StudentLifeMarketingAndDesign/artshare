@@ -1,7 +1,7 @@
 <% loop Home %>
 
 
-<img class="front-img" src="<% loop FeatureImage %><% loop SetWidth(472) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/>
+<img class="front-img" src="<% loop FeatureImage %><% loop ScaleWidth(472) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/>
 
 
 
@@ -48,7 +48,7 @@ $Content</li>
 
 
 <div class="program {$EvenOdd}{$Pos}">
-<a href="$Link"><img src="<% loop ContentImage %><% loop SetWidth(151) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/></a>
+<a href="$Link"><img src="<% loop ContentImage %><% loop ScaleWidth(151) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/></a>
 
 
 <h3><a href="$Link">$Title</a></h3>

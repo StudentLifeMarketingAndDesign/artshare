@@ -1,5 +1,5 @@
 <% if FeatureImage %>
-<a href="$Link"><img class="right" src="<% loop FeatureImage %><% loop SetWidth(260) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/></a>
+<a href="$Link"><img class="right" src="<% loop FeatureImage %><% loop ScaleWidth(260) %> $URL <% end_loop %><% end_loop %>" alt="$Title"/></a>
 <% else %>
 <blockquote>
 <h2 class="black">Bring Arts Share to you.</h2>

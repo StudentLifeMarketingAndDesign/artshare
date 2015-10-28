@@ -4,7 +4,7 @@
 
 <% if ContentImage %>
 
-<div class="interior-image" style="background: url(<% loop ContentImage.SetWidth(400) %>$Filename<% end_loop %>) no-repeat 0px 0px;">
+<div class="interior-image" style="background: url(<% loop ContentImage.ScaleWidth(400) %>$Filename<% end_loop %>) no-repeat 0px 0px;">
 <div class="interior-mask">
 
 <p>$Title</p>
@@ -38,7 +38,7 @@
 
 <% if ContentImage %>
 
-<div class="thumb-image" style="background: url(<% loop ContentImage.SetWidth(130) %>$Filename<% end_loop %>) no-repeat 12px 15px;">
+<div class="thumb-image" style="background: url(<% loop ContentImage.ScaleWidth(130) %>$Filename<% end_loop %>) no-repeat 12px 15px;">
 <div class="thumb-mask$Pos">
 </div>
 </div>
