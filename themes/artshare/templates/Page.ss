@@ -147,7 +147,7 @@ $Layout
 <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FUniversity-of-Iowa-Arts-Share%2F131071416933762&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe>
 </p>
 <p class="copywright">
-The University of Iowa • 113 Halsey Hall • Iowa City, Iowa 52242-1795 • Phone: (319) 335-1618 • Fax: (319) 335-2637 • E-Mail: <a href="mailto:artshare@uiowa.edu">artshare@uiowa.edu</a><br />
+The University of Iowa • 771 Van Allen Hall • Iowa City, Iowa 52242-1795 • Phone: (319) 335-1618 • Fax: (319) 335-2637 • E-Mail: <a href="mailto:artshare@uiowa.edu">artshare@uiowa.edu</a><br />
 <a href="http://www.clas.uiowa.edu/">College of Liberal Arts &amp; Sciences</a>  •  <a href="http://performingarts.uiowa.edu/">Division of Performing Arts</a>  •  &copy; 2005 -  {$Now.Year} <a href="http://www.uiowa.edu">The University of Iowa</a></p>
 </div><!--end footer-->
 
