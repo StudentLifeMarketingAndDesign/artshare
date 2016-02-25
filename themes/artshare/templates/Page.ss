@@ -151,16 +151,7 @@ The University of Iowa •  771 Van Allen Hall • Iowa City, Iowa 52242-1795 �
 <a href="http://www.clas.uiowa.edu/">College of Liberal Arts &amp; Sciences</a>  •  <a href="http://performingarts.uiowa.edu/">Division of Performing Arts</a>  •  &copy; 2005 -  {$Now.Year} <a href="http://www.uiowa.edu">The University of Iowa</a></p>
 </div><!--end footer-->
 
-
-
-
-
-<% if CurrentMember %>
-<div class="edit-box">
-<p><a href="$BaseHref/admin/show/{$ID}">Edit this page</a></p>
-</div>
-<% end_if %>  
-
+$BetterNavigator
 </body>
 </html>
 

@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold);
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light);
+
+.typography blockquote.front li h4 {
+	padding: 0 0 3px 0;
+	margin: 0 0 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.typography blockquote.front ul {
+	margin: 0px;
+}
+
+.typography blockquote.front li {
+	margin: 0 0 20px 0;
+	list-style-image: none;
+}
+
+.typography blockquote p {
+	color: #999;
+	margin: 0 0 10px 0;
+	line-height: 18px;
+}
+
+.typography strong {
+	color: #666;
+	font-weight: bold;
+}
+
+.typography h1 {
+	margin: 0 0 10px 0;
+	font: normal 40px/35px 'Yanone Kaffeesatz', arial,serif;
+}
+
+.typography a {
+	outline: none;
+	color: #DF6421;
+	text-decoration: none;
+}
+
+.typography a:hover {
+	text-decoration: underline;
+}
+
+.typography blockquote.front h3 a {
+	color: #969;
+}
+
+.typography h2 {
+	color: #913D0F;
+	margin: 0 0 10px 0;
+	font: normal 30px/30px 'Yanone Kaffeesatz', arial,serif;
+}
+
+.typography h2.black {
+	color: black;
+}
+
+.typography blockquote h2 {
+	font-size: 28px;
+}
+
+.typography h2.front-page {
+	border-bottom: 1px solid #999;
+	padding: 0 0 10px 0;
+	width: 280px;
+	font: normal 30px/31px 'Yanone Kaffeesatz', arial,serif;
+	color: black;
+}
+
+.typography h2.programs a {
+	color: #843914;
+}
+
+.typography h2.programs {
+	clear: both;
+	padding: 0 0 10px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid #999;
+}
+
+.typography h3, #Form_Form {
+	color: #913D0F;
+	margin: 0 0 10px 0;
+	font: normal 23px/20px  'Yanone Kaffeesatz', arial,serif;
+}
+
+.typography blockquote h3 {
+	margin: 0 0 20px 0;
+	font-size: 30px;
+}
+
+.individual-programs h3 a, .typography blockquote.front li h4 {
+	color: #333333;
+	font: normal 20px/21px 'Yanone Kaffeesatz', arial,serif;
+	letter-spacing: 0.04em;
+}
+
+.typography blockquote.front h3 a {
+	letter-spacing: .03em;
+	padding: 0px;
+	color: #333;
+}
+
+.individual-programs h3 {
+	padding: 0 0 10px 0;
+	border-bottom: 4px solid #333;
+}
+
+.typography h4 {
+	color: #666;
+	font: lighter 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.typography h5 {
+	color: #A6678A;
+	margin: 0 0 5px 0;
+	font: normal 21px/20px  'Yanone Kaffeesatz', arial,serif;
+}
+
+.typography p.front {
+	font-size: 16px;
+}
+
+.typography p {
+	color: #333;
+	font-weight: lighter;
+	font-size: 1.3em;
+	margin: 0 0 15px 0;
+}
+
+.typography img.right, .typography img.left {
+	padding: 0 0 0px 20px;
+}
+
+.typography img.right {
+	float: right;
+}
+
+.typography img.left {
+	float: left;
+}
+
+.typography ol li {
+	font: lighter .9em Arial, Helvetica, sans-serif;
+	margin: 0 0 5px 20px;
+	color: #666;
+	list-style: decimal;
+}
+
+.typography ul {
+	margin: 0 0 20px 15px;
+}
+
+.typography ul ul {
+	margin: 10px 0 10px 20px;
+	font-size: 1.1em;
+}
+
+.typography ul li p {
+	margin: 0;
+}
+
+.typography ul li {
+	list-style-image: url(../images/dot.png);
+	list-style-position: outside;
+	font: lighter .9em Arial, Helvetica, sans-serif;
+	color: #666;
+	margin: 0 0 5px 0;
+}
+
+.typography ul li.pdf a {
+	margin: 0 5px 0 0;
+	padding: 0 20px 0 0;
+	background: url(../images/pdf.png) no-repeat right -1px;
+}
