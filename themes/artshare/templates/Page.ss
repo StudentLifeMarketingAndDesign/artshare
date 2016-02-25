@@ -9,8 +9,8 @@
 
 <link rel="stylesheet" href="$ThemeDir/css/styles.css" type="text/css" media="print, projection, screen"/>
 <link rel="stylesheet" href="$ThemeDir/css/reset.css" type="text/css" media="print, projection, screen"/>
-<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css'/>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
 
 <!--[if IE 7]><style type='text/css'>@import url($ThemeDir/css/ie7.css);</style><![endif]-->
 
