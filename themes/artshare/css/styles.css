@@ -194,7 +194,7 @@ blockquote.front {
 	border-bottom: 1px solid #999;
 }
 
-.typography h3, #Form_Form {
+.typography h3, form {
 	color: #913D0F;
 	margin: 0 0 10px 0;
 	font: normal 23px/20px  'Yanone Kaffeesatz', arial,serif;
@@ -708,7 +708,7 @@ p.icons img {
 
 /* Form Elements */
 
-#Form_Form .middleColumn {
+form .middleColumn {
 	margin-bottom: 10px;
 }
 
@@ -716,7 +716,7 @@ p.icons img {
 	margin-bottom: 40px;
 }
 
-#Form_Form .middleColumn textarea {
+form textarea {
 	width: 600px;
 	margin-bottom: 20px;
 	margin-top: 10px;
@@ -751,18 +751,28 @@ fieldset .field.text input {
 	clear: both;
 }
 
-#Form_Form ul {
+form ul {
 	margin-top: 15px;
 	margin-left: 0px;
 }
 
-#Form_Form ul li {
+form ul li {
 	list-style: none;
 }
 
-#Form_Form ul.optionset {
+form ul.optionset {
+	margin: 0;
 	font-size: 15px;
-	padding: 20px 0 0 0;
+	padding: 20px 0;
+}
+
+.typography form ul.optionset li {
+	list-style-type: none;
+	list-style-image: none;
+}
+
+form ul.optionset label {
+	margin-left: 5px;
 }
 
 input.checkbox {

@@ -64,6 +64,7 @@ class Page_Controller extends ContentController {
 		// instead of putting Requirements calls here.  However these are
 		// included so that our older themes still work
 		Requirements::themedCSS("form"); 
+		Requirements::block(USERFORMS_DIR . '/css/UserForm.css');
 	}
 	
 		function Home($limit=3) {

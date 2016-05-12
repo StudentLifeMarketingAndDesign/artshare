@@ -28,3 +28,5 @@ reports/
 segment-field/
 siteconfig/
 betternavigator/
+nocaptcha/
+nocaptcha.yml

@@ -6,9 +6,9 @@
 		"silverstripe/cms": "3.3.*@stable",
 		"silverstripe/framework": "3.3.*@stable",
 		"silverstripe/googlesitemaps": "*",
-		"silverstripe/userforms": "2.0.*",
+		"silverstripe/userforms": "3.*",
 		"silverstripe/spamprotection": "*",
-		"silverstripe/recaptcha" : "*",
+		"undefinedoffset/silverstripe-nocaptcha": "*",
 		"jonom/silverstripe-betternavigator" : "*"
 
 
