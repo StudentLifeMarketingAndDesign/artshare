@@ -9,7 +9,8 @@
 		"silverstripe/userforms": "3.*",
 		"silverstripe/spamprotection": "*",
 		"undefinedoffset/silverstripe-nocaptcha": "*",
-		"jonom/silverstripe-betternavigator" : "*"
+		"jonom/silverstripe-betternavigator" : "*",
+		"silverstripe/secureassets": "dev-master"
 
 
 	},
