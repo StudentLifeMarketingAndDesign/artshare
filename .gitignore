@@ -24,7 +24,9 @@ division-bar/
 assets/
 deploy.php
 gridfieldextensions/
-
-siteconfig/
-
 reports/
+segment-field/
+siteconfig/
+betternavigator/
+nocaptcha/
+nocaptcha.yml

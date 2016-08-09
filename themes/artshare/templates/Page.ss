@@ -9,8 +9,8 @@
 
 <link rel="stylesheet" href="$ThemeDir/css/styles.css" type="text/css" media="print, projection, screen"/>
 <link rel="stylesheet" href="$ThemeDir/css/reset.css" type="text/css" media="print, projection, screen"/>
-<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css'/>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light' rel='stylesheet' type='text/css'/>
 
 <!--[if IE 7]><style type='text/css'>@import url($ThemeDir/css/ie7.css);</style><![endif]-->
 
@@ -151,16 +151,7 @@ The University of Iowa •  771 Van Allen Hall • Iowa City, Iowa 52242-1795 �
 <a href="http://www.clas.uiowa.edu/">College of Liberal Arts &amp; Sciences</a>  •  <a href="http://performingarts.uiowa.edu/">Division of Performing Arts</a>  •  &copy; 2005 -  {$Now.Year} <a href="http://www.uiowa.edu">The University of Iowa</a></p>
 </div><!--end footer-->
 
-
-
-
-
-<% if CurrentMember %>
-<div class="edit-box">
-<p><a href="$BaseHref/admin/show/{$ID}">Edit this page</a></p>
-</div>
-<% end_if %>  
-
+$BetterNavigator
 </body>
 </html>
 
